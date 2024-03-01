@@ -10,6 +10,6 @@ namespace Exemplo.Models
         public string Nome { get; set; }
 
 
-        public virtual ICollection<Produto> Produtos { get; set; }
+        public virtual ICollection<Produto>? Produtos { get; set; }
     }
 }
